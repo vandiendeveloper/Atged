@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="images/favicon.ico">
+
+  <title>Carousel Template for Bootstrap</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/webslidemenu.css" rel="stylesheet">
+  <link href="css/webslidemenu-effect.css" rel="stylesheet">
+  <link href="css/slick.css" rel="stylesheet">
+  <link href="css/slick-theme.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="box-header">
+      <div class="wsmobileheader clearfix ">
+        <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+        <span class="smllogo"><img src="images/logo.png" width="80" alt="" /></span>
+      </div>
+      <div class="block-header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+              <div class="block-header-top--logo">
+                <a href="#"><img src="images/logo.png" alt="" class="img-fluid"></a>
+              </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
+              <div class="block-header-top--contact">
+                <div class="header-top-contact--item phone">
+                  <div class="block-images">
+                    <a href="#"><img src="images/icon-phone.png" alt="" class="img-fluid"></a>
+                  </div>
+                  <div class="block-content">
+                    <h3>Call us 9:00am - 6:00pm</h3>
+                    <p>(+84) 946 768 286</p>
+                    <p>(+84) 946 768 286</p>
+                  </div>
+                </div>
+                <div class="header-top-contact--item clock">
+                  <div class="block-images">
+                    <a href="#"><img src="images/icon-clock.png" alt="" class="img-fluid"></a>
+                  </div>
+                  <div class="block-content">
+                    <h3>Monday to Friday</h3>
+                    <p>9:00am - 6:00pm</p>
+                  </div>
+                </div>
+                <div class="header-top-contact--item mail">
+                  <div class="block-images">
+                    <a href="#"><img src="images/icon-mail.png" alt="" class="img-fluid"></a>
+                  </div>
+                  <div class="block-content">
+                    <h3>E-mail us</h3>
+                    <p>anhthu.atgeds@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block-header-bottom">
+        <div class="container">
+          <div class="block-header-bottom--navigation">
+            <div class="wsmainwp clearfix">
+              <nav class="wsmenu clearfix">
+                <ul class="wsmenu-list">
+                  <li><a class="active" href="#">TRANG CHỦ</a></li>
+                  <li><a href="#">GIỚI THIỆU</a></li>
+                  <li><a href="#">SẢN PHẨM VÀ GIẢI PHÁP <i class="fas fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                      <li><a href="#">ĐÀO TẠO 1</a></li>
+                      <li><a href="#">ĐÀO TẠO 2</a></li>
+                      <li><a href="#">ĐÀO TẠO 3</a></li>
+                      <li><a href="#">ĐÀO TẠO 4</a></li>
+                      <li><a href="#">ĐÀO TẠO 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">TƯ VẤN DOANH NGHIỆP</a></li>
+                  <li><a href="#">ĐÀO TẠO <i class="fas fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                      <li><a href="#">ĐÀO TẠO 1</a></li>
+                      <li><a href="#">ĐÀO TẠO 2</a></li>
+                      <li><a href="#">ĐÀO TẠO 3</a></li>
+                      <li><a href="#">ĐÀO TẠO 4</a></li>
+                      <li><a href="#">ĐÀO TẠO 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">TIN TỨC <i class="fas fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                      <li><a href="#">ĐÀO TẠO 1</a></li>
+                      <li><a href="#">ĐÀO TẠO 2</a></li>
+                      <li><a href="#">ĐÀO TẠO 3</a></li>
+                      <li><a href="#">ĐÀO TẠO 4</a></li>
+                      <li><a href="#">ĐÀO TẠO 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">LIÊN HỆ</a></li>
+                  <li><a href="#">LIÊN HỆ VỚI CHÚNG TÔI</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <article>
+    <!-- -------------------------------Section Top-------------------------- -->
+    <section class="silde-top">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img-fluid" src="images/slide.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="images/slide.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="images/slide.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- -----------------------------------------Section Introduce------------------------ -->
+    <section class="introduce">
+      <div class="container">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 title-introduce">
+          <span class="title-introduce--welcome">
+            Welcome to
+          </span>
+          <span class="title-introduce--name-company">
+            ATGED Company
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 content-introduce">
+            <p class="content-introduce--strengths">
+              <span class="content-introduce-strengths--title">Tầm nhìn(Vision):</span> Với khát khao thể hiện trí tuệ
+              Việt, <a href="#"><span class="content-introduce-strengths--emphasize">công ty ADGET</span></a>
+              nổ lực để trở thành một thương hiệu uy tín trong ngành công nghiệp 4.0 với các sản phẩn
+              và giải pháp công nghệ sáng tạo, mang lại hiệu quả cao, chi phí thấp đồng thời cam kết đóng góp cho xã hội
+              và môi trường
+            </p>
+            <p class="content-introduce--strengths">
+              <span class="content-introduce-strengths--title">Sứ mệnh(Mission):</span> Hướng đến mục tiêu và sự hài
+              lòng của khách hàng, nâng cao chất lượng cuộc sống của nhân viên, tạo ra môi trường xanh hơn bằng việc
+              cung cấp những sản phẩm dịch vụ tốt nhất
+            </p>
+            <p class="content-introduce--forPerson">
+              <span class="content-introduce-forPerson--title">Đối với khách hàng:</span> Đặt chất lượng lên hàng đầu,
+              không ngừng cải tiến để nâng cao uy tín và vượt trên sự mong đợi của khách hàng
+            </p>
+            <p class="content-introduce--forPerson">
+              <span class="content-introduce-forPerson--title">Đối với nhân viên:</span> Xây dựng niềm tin nơi nhân viên
+              bằng công việc ổn định có thu nhập ngày càng cao, luôn cải tiến môi trường làm việc, tạo bầu không khí học
+              hỏi, sáng tạo và nhân văn;
+            </p>
+            <p class="content-introduce--forPerson">
+              <span class="content-introduce-forPerson--title">Dối với các đối tác:</span> Hợp tác dựa trên cơ sở công
+              bằng, cởi mở, tôn trọng những cam kết nhằm mang lại kết quả tốt nhất và giúp đỡ lẫn nhau để cùng phát
+              triển;
+            </p>
+            <h3>
+              Giá Trị cốt lõi của ATGED
+            </h3>
+            <p class="content-introduce--forPerson">
+              <span class="content-introduce-forPerson--title">Advanced (Tiên tiến):</span> Đổi mới trong tư duy và linh
+              hoạt trong hành động, liên tục cải tiến hệ thóng quản lý và đi đầu về công nghệ để tạo giá trị cho các cổ
+              đông, khách hàng và đối tác. <br>
+              Tầm nhìn(Vision): Với khát khao thể hiện trí tuệ Việt, <a href="#"><span
+                  class="content-introduce-strengths--emphasize">công ty ADGET</span></a> nổ lực để trở thành thương
+              hiệu uy
+              tín trong ngành công nghệ 4.0 với các sản phẩm và giải pháp công nghệ sáng tạo...
+            </p>
+
+          </div>
+          <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 right-introduce">
+            <a href="#"><img src="./images/robo-info.png" alt="" class="img-fluid imgvertical"></a>
+          </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 colsm-12 button">
+          <div id="btn-see-more">Xem chi tiết >>></div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------------------------------Section Technology------------------------ -->
+    <section class="technology">
+      <div class="container">
+        <div class="row row-content-technology">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 technology--box">
+            <div class="technology-box--title">
+              <h3>
+                robot công nghệ và dịch vụ
+              </h3>
+
+            </div>
+            <div class="technology-box--image">
+              <a href="#"><img src="images/technology-1.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="technology-box--content">
+              <p>
+                Công cty ATGED phân phối 4 dòng sản phẩm Robot công nghiệp Uy tín hàng đầu thế giới sau: <br>
+                - Robot Kuka <br>
+                - Robot Yaskawa <br>
+                - Robot Universal + Servo ứng dụng vào các lĩnh vực: <br>
+                + Robot Cơ khí hàn hồ quang và hàn điểm (Hàn, Cấp phôi cho máy cnc ..) <br>
+                + Sơn robot (Sơn) <br>
+                + Robot gắp (Xử lý) <br>
+                + Robot nâng bốc hàng (Chọn / Đóng gói, Palletizing)
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 technology--box">
+            <div class="technology-box--title">
+              <h3>
+                ứng dụng tự động hóa
+              </h3>
+
+            </div>
+            <div class="technology-box--image">
+              <a href="#"><img src="images/technology-2.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="technology-box--content">
+              <p>
+                - Ứng dụng bán hàng trực tuyến, thương mại điện tử, tích hợp thanh toán điện tử. <br>
+                - Ứng dụng quản lý, bán hàng sử dụng trong nội bộ doanh nghiệp. <br>
+                - Ứng dụng kết nối người dùng, doanh nghiệp <br>
+                - Ứng dụng chăm sóc sức khỏe, đời sống. <br>
+                - Ứng dụng cho các sàn giao dịch Forex, Cripto Curentcy, bảo mật cao <br>
+                - Phát triển công cụ trực tuyến-Phần mềm (DMS - Digital Marketing)...
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 technology--box">
+            <div class="technology-box--title">
+              <h3>
+                tự động hóa doanh nghiệp
+              </h3>
+            </div>
+            <div class="technology-box--image">
+              <a href="#"><img src="images/technology-3.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="technology-box--content">
+              <p>
+                + Tự động hóa bộ máy doanh nghiệp (Big data, Marketing auto, Sale, CRM, Email Marketing) <br>
+                + Tư vấn định vị Thương hiệu và giải pháp phát triển doanh nghiệp <br>
+                + Hỗ trợ kêu gọi vốn đầu tư <br>
+                + Kết nối đối tác hợp tác đầu tư dự án.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------------------Section News------------------------------------------ -->
+    <section class="section-news">
+      <div class="container">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 section-news--title">
+          <h3>tin tức</h3>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 news-box">
+            <div class="news-box--image">
+              <img src="images/news-image-1.png" alt="" class="img-fluid">
+            </div>
+            <div class="news-box--title">
+              <h3>
+                Loft Office With Vintage Decor For
+              </h3>
+            </div>
+            <div class="news-box--content">
+              <p>
+                Lorem ipsum dolor sit amet, consect- etuer
+                adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. Cum sociis natoque ...
+              </p>
+              <h5><a href="#">Xem thêm >></a></h5>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 news-box">
+            <div class="news-box--image">
+              <img src="images/news-image-2.png" alt="" class="img-fluid">
+            </div>
+            <div class="news-box--title">
+              <h3>
+                Robotics Industry to Help with Weldings...
+              </h3>
+            </div>
+            <div class="news-box--content">
+              <p>
+                Lorem ipsum dolor sit amet, consect- etuer
+                adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. Cum sociis natoque ...
+              </p>
+              <h5><a href="#">Xem thêm >></a></h5>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 news-box">
+            <div class="news-box--image">
+              <img src="images/news-image-3.png" alt="" class="img-fluid">
+            </div>
+            <div class="news-box--title">
+              <h3>
+                u.s fund managers trim back stocks on profit...
+              </h3>
+            </div>
+            <div class="news-box--content">
+              <p>
+                Lorem ipsum dolor sit amet, consect- etuer
+                adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. Cum sociis natoque ...
+              </p>
+              <h5><a href="#">Xem thêm >></a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------Section client -->
+    <section class="client-logo">
+      <div class="container ">
+        <ul class="multiple-items list-client">
+          <li>
+            <img src="./images/client-logo-1.png" alt="" class="img-fluid">
+          </li>
+          <li>
+            <img src="./images/client-logo-3.png" alt="" class="img-fluid">
+          </li>
+          <li>
+            <img src="./images/client-logo-2.png" alt="" class="img-fluid">
+          </li>
+          <li>
+            <img src="./images/client-logo-4.png" alt="" class="img-fluid">
+          </li>
+          <li>
+            <img src="./images/client-logo-5.png" alt="" class="img-fluid">
+          </li>
+          <li>
+            <img src="./images/client-logo-2.png" alt="" class="img-fluid">
+          </li>
+        </ul>
+      </div>
+    </section>
+  </article>
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 contact-box">
+            <div class="contact-box--logo">
+              <a href="#"><img src="images/logo-footer.png" class="img-fluid imgcenter"></a>
+            </div>
+            <div class="contact-box--content">
+              <h3>công ty tnhh tự động hóa công nghệ atged</h3>
+              <p>
+                Văn phòng đại diện: Tòa nhà Pack simes <br>
+                Địa chỉ: 52 Đông Du, phường Bến Nghé, Quận 1, TP.HCM <br>
+                Hotline: (+84) 946 768 286 (+84) 097 768 286 <br>
+                Email: anhthu.atgeds@gmail.com <br>
+                Website: www.atgeds.com
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 service-box">
+            <h3>Hỗ trợ dịch vụ</h3>
+            <ul class="service-box--list ">
+              <li><a href="#"> Hỗ trợ khách hàng</a></li>
+              <li><a href="#">Dịch Vụ Kỹ Thuật</a> </li>
+              <li><a href="#">Tin tức</a> </li>
+              <li><a href="#"> Bản đồ</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 statistic-box">
+            <h3>thống kê truy cập</h3>
+            <div class="statistic-box--list">
+              <p class="statistic-box--item-1">Đang truy cập: 1</p>
+              <p class="statistic-box--item-2">Truy cập hôm nay: 16</p>
+              <p class="statistic-box--item-3">Tổng lượt truy cập: 22220</p>
+            </div>
+            <div class="statistic-box--list">
+              <ul>
+
+                <li><a href="#"><img src="./images/facebook-icon.png" alt="" class="img-fluid"></a> </li>
+                <li><a href="#"><img src="./images/insta-icon.png" alt="" class="img-fluid"></a> </li>
+                <li><a href="#"><img src="./images/youtube-icon.png" alt="" class="img-fluid"></a> </li>
+                <li><a href="#"><img src="./images/google-icon.png" alt="" class="img-fluid"></a> </li>
+                <li><a href="#"><img src="./images/skyper-icon.png" alt="" class="img-fluid"></a> </li>
+                <li><a href="#"><img src="./images/twitter.png" alt="" class="img-fluid"></a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <div class="container">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 copyright">
+      <h4>
+        &copy copyright <a href="#"><span>atged</span></a> 2020 all right reserved
+      </h4>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/webslidemenu.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/site.js"></script>
+
+</body>
+
+</html>
